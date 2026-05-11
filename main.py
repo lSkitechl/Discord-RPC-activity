@@ -4,7 +4,7 @@ from functions.logger import Logger
 from data.activity import Activity
 
 current_activity = None
-Logger.level(Logger.types.DEBUG)
+Logger.level(Logger.types.INFO)
 Logger.is_color(False)
 logger = Logger("Main")
 
