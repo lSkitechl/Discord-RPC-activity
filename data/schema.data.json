@@ -1,0 +1,53 @@
+{
+    "config": {
+        "sleep": 5,
+        "time_idle": 30,
+        "buttons": [
+            {
+                "label": "You're Information", 
+                "url": ""
+            },
+            {
+                "label": "", 
+                "url": ""
+            }
+        ]
+    },
+    "activity": [
+        {
+            "name": "Code In Visual Studio Code",
+            "processes": ["code.exe"],
+            "details": "",
+            "state": "",
+            "large_image": "",
+            "small_image": "vs",
+            "smaal_text": "",
+            "large_text": ""
+        },
+        {
+            "comment": "And more, And moreeeee..."
+        },
+        {
+            "name": "Doing absolutely nothing",
+            "processes": [], 
+            "chill": true,
+            "details": "",
+            "state": "",
+            "large_image": "",
+            "small_image": "",
+            "smaal_text": "",
+            "large_text": ""
+        },
+        {
+            "name": "Currently away",
+            "idle": true,
+            "processes": [], 
+            "details": "",
+            "state": "",
+            "large_image": "",
+            "small_image": "",
+            "smaal_text": "",
+            "large_text": ""
+        }
+    ]
+}
