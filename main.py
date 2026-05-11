@@ -27,7 +27,7 @@ while True:
                     name=activity["name"],
                     large_image=activity["large_image"],
                     small_image=activity["small_image"],
-                    small_text="small_text",
+                    small_text=activity["small_text"],
                     buttons=acty.config.buttons,
                     large_text=activity["large_text"]
                 )
