@@ -32,5 +32,5 @@ while True:
                     large_text=activity["large_text"]
                 )
                 logger.info(activity['name'])
-    except Exception as e: logger.error("ERROR:", e)
+    except Exception as e: logger.error("ERROR:", e); raise
     time.sleep(acty.config.sleep)

@@ -2,6 +2,7 @@
     "config": {
         "sleep": 5,
         "time_idle": 30,
+        "sound_volume": 10,
         "buttons": [
             {
                 "label": "You're Information", 
