@@ -56,7 +56,7 @@ class Functions(object):
         for activity in act:
             if activity.get("idle") or activity.get("chill"):
                 continue
-            for process in activity["processes"]:
+            for process in activity.get("processes",[]):
                 if process.lower() in running:
                     new_activity = activity
 
