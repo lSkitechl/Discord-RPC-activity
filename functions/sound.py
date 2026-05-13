@@ -16,12 +16,11 @@ class Sound(object):
         for session in sessions:
             if not session.Process:
                 continue
-
             peak = session._ctl.QueryInterface(IAudioMeterInformation).GetPeakValue()
             volume = round(peak * 1000, 3)
             x.append(volume)
 
-        return max(x)
+        return max(x) if len(x) > 0 else 0
     
     def add_in_dumps(self, data) -> None: 
         self.dumps.append(data)

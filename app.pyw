@@ -6,7 +6,7 @@ from data.activity import Activity
 current_activity = None
 Logger.level(Logger.types.INFO)
 Logger.is_color(False)
-logger = Logger("Main")
+logger = Logger()
 
 acty = Activity(Logger("Activity"))
 acty.connect()
