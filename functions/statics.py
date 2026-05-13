@@ -42,7 +42,7 @@ class Functions(object):
     def detect_activity(self, act: list[dict]):
         idle_time = self.get_idle_duration()
         running = self.get_running_processes()
-        self.sounds.add_in_dumps(self.sounds.сurrent_sounds())
+        self.sounds.add_in_dumps(self.sounds.current_sounds())
         self.logger.debug(self.sounds.dumps)
 
         self.logger.debug(self.config.time_idle // self.config.sleep)
