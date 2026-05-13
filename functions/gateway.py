@@ -24,7 +24,7 @@ class Gateway(object):
                 self.logger.warn(err)
                 return []
 
-    def white(self, data: list) -> bool:
+    def write(self, data: list) -> bool:
         """
 Returns `True` if successful.
 
