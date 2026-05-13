@@ -15,3 +15,15 @@
 The idea that inspired me to write this script comes from: <a href=https://vencord.dev/plugins/CustomRPC>CustomRPC</a>
 
 The difference is that this script is dynamic and allows you to create an unlimited number of different activities (and it also doesn't require installing <a href=https://github.com/Vendicated/Vencord>Vencord</a>)
+
+## Disclaimer
+Discord is trademark of Discord Inc. and solely mentioned for the sake of descriptivity.<br>
+Mention of it does not imply any affiliation with or endorsement by Discord Inc.
+
+
+## Using this script does not violate Discord's Terms of Service. (I think?)
+> [!NOTE]
+> Technically, this isn't a client modification, since you're essentially just running an “app.”
+
+> [!IMPORTANT]
+> However, if your account is very important to you and having it blocked would be a disaster, you probably shouldn't use any modifications.
